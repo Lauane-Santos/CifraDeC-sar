@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cifra de César</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <h1>Cifra de César</h1>
+        <span id="label"><b>Chave:</b></span>
+        <button onclick="menos()">-</button>
+        <span id="key">1</span>
+        <button onclick="mais()">+</button><br/><br/>
+        <input type="text" id="input"/>
+        <button onclick="criptografar()" id="button">Criptografar</button>
+        <span id="output1"></span>
+        <button onclick="descriptografar()" id="button">Descriptografar</button>
+        <span id="output2"></span>
+        <script src="script.js"></script>
+    </body>
+</html>
